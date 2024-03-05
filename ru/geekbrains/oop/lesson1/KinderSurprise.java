@@ -31,9 +31,6 @@ public class KinderSurprise extends Product{
         return calories;
     }
 
-    public void setCalories(double calories) {
-        this.calories = calories;
-    }
 
     // public String getToySurprise() {
     //     return toySurprise;
