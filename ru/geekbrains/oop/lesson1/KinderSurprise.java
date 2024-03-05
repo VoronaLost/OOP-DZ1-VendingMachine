@@ -9,7 +9,7 @@ import java.util.Random;
 
 public class KinderSurprise extends Product{
 
-    private double calories;
+    private static double calories = 552;
     private String toySurprise;
     private Random r = new Random();
 
@@ -39,10 +39,8 @@ public class KinderSurprise extends Product{
     //     return toySurprise;
     // }
 
-    public KinderSurprise(String brand, String name, double price, double calories){
+    public KinderSurprise(String brand, String name, double price){
         super(brand, name, price);
-        this.calories = calories;
-        this.calories = 552;
         this.brand = "Ferrero";
         //if (name == "hiipoSeries") this.toySurprise = colHappyHippos[r.nextInt(colHappyHippos.size())];
         if (name == "hiipoSeries") this.toySurprise = colHappyHippos.get(r.nextInt(colHappyHippos.size()));

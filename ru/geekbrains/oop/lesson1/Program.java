@@ -28,16 +28,16 @@ public class Program {
         Product bottleOfMilk2 = new BottleOfMilk("Brand #3", "Name #3", 310, 0.5, 10);
         //System.out.println(bottleOfMilk2.displayInfo());
 
-        KinderSurprise KinderSurprise1 = new KinderSurprise("Any Brand", "hiipoSeries", 200, 552);
+        KinderSurprise KinderSurprise1 = new KinderSurprise("Any Brand", "hiipoSeries", 200);
         System.out.println("_______________" + "\n" + KinderSurprise1.displayInfo());
 
-        KinderSurprise KinderSurprise2 = new KinderSurprise("Any Brand", "sharkSeries", 210, 552);
+        KinderSurprise KinderSurprise2 = new KinderSurprise("Any Brand", "sharkSeries", 210);
         System.out.println("_______________" + "\n" + KinderSurprise2.displayInfo());
 
-        KinderSurprise KinderSurprise3 = new KinderSurprise("Any Brand", "happyDinos", 205, 552);
+        KinderSurprise KinderSurprise3 = new KinderSurprise("Any Brand", "happyDinos", 205);
         System.out.println("_______________" + "\n" + KinderSurprise3.displayInfo());
 
-        KinderSurprise KinderSurprise4 = new KinderSurprise("Any Brand", "someSeries", 205, 552);
+        KinderSurprise KinderSurprise4 = new KinderSurprise("Any Brand", "someSeries", 205);
         System.out.println("_______________" + "\n" + KinderSurprise4.displayInfo());
 
         ArrayList<Product> list = new ArrayList<>();
